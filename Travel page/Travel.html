@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang = "en">
+<head>
+    <meta charset = "UTF - 8">
+    <meta name = "viewport" content = "width = device - width, initial - scale = 1.0">
+    <link rel = "stylesheet" href = "stylesheet.css">
+    <title>Better Future</title>
+</head>
+<body>
+    <section class = "showcase ">
+        <header>
+            <h2  class = "logo">Better Future</h2>
+            <div class = "toggle "></div>
+        </header>
+
+        <video src = "Sunrise.io.mp4" muted  loop autoplay></video>
+
+        <div class = "overlay"></div>
+        
+        <div class = "text">
+            <h2>What we do</h2>
+            <h3>We do it for Our Community</h3>
+            <p>Bright Future is a forward-thinking non-profit organization dedicated to enriching communities by providing robust internship opportunities for young adults and emerging professionals. With a mission to bridge the gap between education and employment, Bright Future partners with local businesses, educational institutions, and community leaders to create structured, hands-on learning experiences across diverse industries. The organization focuses on underserved areas, aiming to empower residents with practical skills, mentorship, and professional networks that pave the way for sustainable careers. By fostering a culture of collaboration and lifelong learning, Bright Future not only enhances individual potential but also contributes to the economic and social vitality of the regions it serves. Through innovative programming, such as workshops, career fairs, and personalized development plans, Bright Future ensures every participant is equipped to thrive in an increasingly competitive job market while driving positive change within their communities.</p>
+            <a href = "#">Read More </a>
+        </div>
+        
+      <ul class = "social">
+            <li><a href = "#"><img src = "facebook.png" alt = ""></a></li>
+            <li><a href = "#"><img src = "Instagram.png" alt = ""></a></li>
+            <li><a href = "#"><img src = "X.png" alt = ""></a></li>
+      </ul>
+    </section>
+    <div class = "menu">
+        <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Our vision</a></li>
+        <!--<li><a href="#"></a>--></li>
+        <li><a href="#">Contact Us</a></li>
+        </ul>
+    </div>
+
+    <script>
+        const menuToggle = document.querySelector('.toggle')
+        const showcase = document.querySelector('.showcase')
+
+        menuToggle.addEventListener('click', () => {
+            menuToggle.classList.toggle('active')
+            showcase.classList.toggle('active')
+        })
+        </script>
+</body>
+</html>
